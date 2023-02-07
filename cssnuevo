@@ -1,0 +1,148 @@
+/*! CSS Used from: https://2022.unbuendiaenmadrid.com/wp-content/plugins/anwp-post-grid-for-elementor/public/css/styles.min.css?ver=1.0.0 ; media=all */
+@media all{
+html .anwp-pg-wrap{box-sizing:border-box;-ms-overflow-style:scrollbar;}
+.anwp-pg-wrap *,.anwp-pg-wrap :after,.anwp-pg-wrap :before{box-sizing:inherit;}
+.anwp-pg-wrap .no-gutters{margin-right:0;margin-left:0;}
+.anwp-pg-wrap .no-gutters>[class*=col-]{padding-right:0;padding-left:0;}
+.anwp-pg-wrap .d-block{display:block!important;}
+.anwp-pg-wrap .d-flex{display:flex!important;}
+@media (min-width:576px){
+.anwp-pg-wrap .d-sm-none{display:none!important;}
+}
+@media (min-width:992px){
+.anwp-pg-wrap .d-lg-block{display:block!important;}
+}
+.anwp-pg-wrap .flex-column{flex-direction:column!important;}
+.anwp-pg-wrap .flex-wrap{flex-wrap:wrap!important;}
+.anwp-pg-wrap .align-items-center{align-items:center!important;}
+.anwp-pg-wrap .position-relative{position:relative!important;}
+.anwp-pg-wrap .w-100{width:100%!important;}
+.anwp-pg-wrap .m-0{margin:0!important;}
+.anwp-pg-wrap .my-0{margin-top:0!important;}
+.anwp-pg-wrap .my-0{margin-bottom:0!important;}
+.anwp-pg-wrap .mb-2{margin-bottom:.5rem!important;}
+.anwp-pg-wrap .mb-3{margin-bottom:1rem!important;}
+.anwp-pg-wrap .px-1{padding-right:.25rem!important;}
+.anwp-pg-wrap .px-1{padding-left:.25rem!important;}
+.anwp-pg-wrap .py-4{padding-top:1.5rem!important;}
+.anwp-pg-wrap .py-4{padding-bottom:1.5rem!important;}
+.anwp-pg-wrap .mt-auto{margin-top:auto!important;}
+.anwp-pg-wrap .anwp-pg-posts-wrapper{position:relative;}
+.anwp-row{display:flex;flex-wrap:wrap;margin-right:-10px;margin-left:-10px;}
+.anwp-col-lg-6,.anwp-col-sm-3,.anwp-col-sm-9{position:relative;width:100%;padding-right:10px;padding-left:10px;}
+@media (min-width:576px){
+.anwp-col-sm-3{flex:0 0 25%;max-width:25%;}
+.anwp-col-sm-9{flex:0 0 75%;max-width:75%;}
+}
+@media (min-width:992px){
+.anwp-col-lg-6{flex:0 0 50%;max-width:50%;}
+}
+.anwp-position-cover{position:absolute;top:0;bottom:0;left:0;right:0;}
+.anwp-object-cover{-o-object-fit:cover;object-fit:cover;}
+.anwp-pg-wrap .anwp-link-without-effects,.anwp-pg-wrap .anwp-link-without-effects:active,.anwp-pg-wrap .anwp-link-without-effects:focus,.anwp-pg-wrap .anwp-link-without-effects:hover{text-decoration:none!important;box-shadow:none!important;border-bottom:none!important;}
+.anwp-pg-wrap .anwp-position-cover{position:absolute;top:0;bottom:0;left:0;right:0;}
+.anwp-pg-wrap .anwp-pg-height-180{height:180px;}
+.anwp-pg-wrap .anwp-pg-height-2x .anwp-pg-height-180{height:360px;}
+.anwp-pg-wrap .anwp-pg-gutter--thin .anwp-pg-height-2x .anwp-pg-height-180{height:362px;}
+.anwp-grid_card_bg_effect-darken_only .anwp-pg-post-teaser__thumbnail-img{-webkit-transform:none!important;transform:none!important;}
+.anwp-pg-wrap .anwp-pg-post-teaser{font-size:16px;}
+.anwp-pg-wrap .anwp-pg-post-teaser__thumbnail{overflow:hidden;}
+.anwp-pg-wrap .anwp-pg-post-teaser__thumbnail-bg{transition:all .4s ease-in-out 0s;}
+.anwp-pg-wrap .anwp-pg-post-teaser__thumbnail-img{transition:all .4s ease-in-out 0s;background-position:50% 50%;background-size:cover;background-repeat:no-repeat;}
+.anwp-pg-wrap .anwp-pg-post-teaser:not(.anwp-pg-post-teaser--inner-cover-link):hover .anwp-pg-post-teaser__thumbnail-bg{background:rgba(0,0,0,.4);transition:background-color .4s ease-in-out 0s;}
+.anwp-pg-wrap .anwp-pg-post-teaser:not(.anwp-pg-post-teaser--inner-cover-link):hover .anwp-pg-post-teaser__thumbnail-img{-webkit-transform:scale(1.1);transform:scale(1.1);transition:-webkit-transform .4s ease-in-out 0s;transition:transform .4s ease-in-out 0s;transition:transform .4s ease-in-out 0s,-webkit-transform .4s ease-in-out 0s;}
+.anwp-pg-wrap .anwp-pg-post-teaser__top-meta{overflow:hidden;-webkit-transform:translateZ(0);transform:translateZ(0);}
+.anwp-pg-wrap .anwp-pg-post-teaser__title{font-size:1em;line-height:1.2em;word-spacing:1px;letter-spacing:.5px;text-transform:uppercase;font-weight:500;padding:0 12px;-webkit-transform:translateZ(0);transform:translateZ(0);}
+.anwp-pg-wrap .anwp-pg-post-teaser--layout-c .anwp-pg-post-teaser__top-meta{min-height:20px;}
+.anwp-pg-wrap .anwp-pg-post-teaser--layout-c .anwp-pg-post-teaser__bottom-block{background-color:rgba(34,34,34,.6);width:75%;}
+.anwp-pg-wrap .anwp-pg-post-teaser--layout-c .anwp-pg-post-teaser__title{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;max-height:2.4em;min-height:2.4em;line-height:1.2em;color:#fff;}
+.anwp-pg-wrap .anwp-pg-hero-block .anwp-pg-hero-main-block .anwp-pg-post-teaser__title{font-size:1.5em;}
+.anwp-pg-wrap .anwp-pg-hero-block.anwp-pg-gutter--thin .anwp-pg-post-teaser{border:1px solid #fff;}
+}
+/*! CSS Used from: https://2022.unbuendiaenmadrid.com/wp-content/themes/oceanwp/assets/css/style.min.css?ver=3.4.1 ; media=all */
+@media all{
+div,a,img,section{margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;}
+section{display:block;}
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+section{display:block;}
+a:focus{outline:solid 1px!important;}
+a:hover,a:active{outline:0;}
+img{max-width:100%;height:auto;}
+::selection{color:#fff;background:#333;text-shadow:none;}
+section{display:block;}
+a{background-color:rgba(0,0,0,0);}
+a:active,a:hover{outline:0;}
+img{border:0;}
+img{max-width:100%;height:auto;vertical-align:middle;}
+a{color:#333;}
+a:hover{color:#13aff0;}
+a,a:hover,a:focus{text-decoration:none;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;}
+@media print{
+*{background:rgba(0,0,0,0)!important;-webkit-box-shadow:none!important;-moz-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+img{page-break-inside:avoid;}
+img{max-width:100%!important;}
+}
+}
+/*! CSS Used from: https://2022.unbuendiaenmadrid.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.10.2 ; media=all */
+@media all{
+.elementor *,.elementor :after,.elementor :before{box-sizing:border-box;}
+.elementor a{box-shadow:none;text-decoration:none;}
+.elementor img{height:auto;max-width:100%;border:none;border-radius:0;box-shadow:none;}
+.elementor-element{--flex-direction:initial;--flex-wrap:initial;--justify-content:initial;--align-items:initial;--align-content:initial;--gap:initial;--flex-basis:initial;--flex-grow:initial;--flex-shrink:initial;--order:initial;--align-self:initial;flex-basis:var(--flex-basis);flex-grow:var(--flex-grow);flex-shrink:var(--flex-shrink);order:var(--order);align-self:var(--align-self);}
+.elementor-element:where(.e-con-full,.elementor-widget){flex-direction:var(--flex-direction);flex-wrap:var(--flex-wrap);justify-content:var(--justify-content);align-items:var(--align-items);align-content:var(--align-content);gap:var(--gap);}
+.elementor-section{position:relative;}
+.elementor-section .elementor-container{display:flex;margin-right:auto;margin-left:auto;position:relative;}
+@media (max-width:1024px){
+.elementor-section .elementor-container{flex-wrap:wrap;}
+}
+.elementor-section.elementor-section-boxed>.elementor-container{max-width:1140px;}
+.elementor-widget-wrap{position:relative;width:100%;flex-wrap:wrap;align-content:flex-start;}
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap{display:flex;}
+.elementor-widget-wrap>.elementor-element{width:100%;}
+.elementor-widget{position:relative;}
+.elementor-column{position:relative;min-height:1px;display:flex;}
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated{padding:10px;}
+@media (min-width:768px){
+.elementor-column.elementor-col-100{width:100%;}
+}
+@media (max-width:767px){
+.elementor-column{width:100%;}
+}
+.elementor-element .elementor-widget-container{transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform var(--e-transform-transition-duration,.4s);}
+@media (max-width:767px){
+.elementor .elementor-hidden-mobile{display:none;}
+}
+@media (min-width:768px) and (max-width:1024px){
+.elementor .elementor-hidden-tablet{display:none;}
+}
+}
+/*! CSS Used from: https://2022.unbuendiaenmadrid.com/wp-content/uploads/elementor/css/post-69541.css?ver=1675366323 ; media=all */
+@media all{
+.elementor-kit-69541 a{color:var( --e-global-color-accent );}
+.elementor-kit-69541 a:hover{color:var( --e-global-color-primary );}
+.elementor-section.elementor-section-boxed > .elementor-container{max-width:1170px;}
+.elementor-element{--widgets-spacing:0px;}
+@media (max-width:1024px){
+.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}
+}
+@media (max-width:767px){
+.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}
+}
+}
+/*! CSS Used from: https://2022.unbuendiaenmadrid.com/wp-content/uploads/elementor/css/post-10623.css?ver=1675366325 ; media=all */
+@media all{
+.elementor-10623 .elementor-element.elementor-element-9390aba > .elementor-container{max-width:1125px;}
+.elementor-10623 .elementor-element.elementor-element-9390aba > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:flex-start;align-items:flex-start;}
+.elementor-10623 .elementor-element.elementor-element-9390aba{padding:0px 0px 0px 0px;}
+.elementor-10623 .elementor-element.elementor-element-0f10fbc.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:flex-start;align-items:flex-start;}
+.elementor-10623 .elementor-element.elementor-element-0f10fbc > .elementor-element-populated{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}
+}
+/*! CSS Used from: Embedded */
+a:focus{outline:none!important;}
+.anwp-col-sm-9.anwp-col-lg-6.anwp-pg-height-2x.anwp-pg-hero-main-block-wrapper{height:0;}
+/*! CSS Used from: Embedded */
+a:hover{color:#2b1e1b;}
+a{color:#2b1e1b;}
+a:hover{color:#99cc00;}
